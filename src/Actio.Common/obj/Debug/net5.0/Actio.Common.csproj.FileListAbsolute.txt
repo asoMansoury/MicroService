@@ -1,0 +1,12 @@
+C:\projects\MicroServiceProject\src\Actio.Common\bin\Debug\net5.0\Actio.Common.deps.json
+C:\projects\MicroServiceProject\src\Actio.Common\bin\Debug\net5.0\Actio.Common.dll
+C:\projects\MicroServiceProject\src\Actio.Common\bin\Debug\net5.0\ref\Actio.Common.dll
+C:\projects\MicroServiceProject\src\Actio.Common\bin\Debug\net5.0\Actio.Common.pdb
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.AssemblyInfoInputs.cache
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.AssemblyInfo.cs
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.csproj.CoreCompileInputs.cache
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.dll
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\ref\Actio.Common.dll
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.pdb
+C:\projects\MicroServiceProject\src\Actio.Common\obj\Debug\net5.0\Actio.Common.csprojAssemblyReference.cache
