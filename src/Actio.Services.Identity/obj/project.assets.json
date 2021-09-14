@@ -311,7 +311,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.IIS.dll": {}
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.AspNetCore.Server.IIS.targets": {}
         },
         "runtimeTargets": {
           "runtimes/win-x64/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll": {
@@ -348,7 +348,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {}
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.targets": {}
         }
       },
       "Microsoft.AspNetCore.Server.Kestrel/2.2.0": {
@@ -561,7 +561,8 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props": {},
+          "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.targets": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection/2.2.0": {
@@ -7404,8 +7405,14 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Actio.Common >= 1.0.0",
+      "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
+      "Microsoft.AspNetCore.Hosting >= 2.2.0",
+      "RawRabbit >= 2.0.0-beta8",
+      "RawRabbit.DependencyInjection.ServiceCollection >= 2.0.0-beta8",
+      "RawRabbit.Operations.Publish >= 2.0.0-beta8",
+      "RawRabbit.Operations.Subscribe >= 2.0.0-beta8",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -7452,6 +7459,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[5.0.0, )",
@@ -7465,6 +7476,26 @@
             "noWarn": [
               "NU1605"
             ]
+          },
+          "Microsoft.AspNetCore.Hosting": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "RawRabbit": {
+            "target": "Package",
+            "version": "[2.0.0-beta8, )"
+          },
+          "RawRabbit.DependencyInjection.ServiceCollection": {
+            "target": "Package",
+            "version": "[2.0.0-beta8, )"
+          },
+          "RawRabbit.Operations.Publish": {
+            "target": "Package",
+            "version": "[2.0.0-beta8, )"
+          },
+          "RawRabbit.Operations.Subscribe": {
+            "target": "Package",
+            "version": "[2.0.0-beta8, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

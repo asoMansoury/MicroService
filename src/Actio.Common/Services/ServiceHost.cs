@@ -30,6 +30,7 @@ namespace Actio.Common.Services
                 .AddCommandLine(args)
                 .Build();
             var webHostBuilder = WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://*:5050")
                 .UseConfiguration(config)
                 .UseStartup<TStartup>();
 
